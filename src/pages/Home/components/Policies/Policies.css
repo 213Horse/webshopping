@@ -1,0 +1,33 @@
+.policy-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background: white;
+  }
+  
+  .policy-item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+  }
+  
+  .policy-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .policy-text h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .policy-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+  }
+  
