@@ -1,0 +1,63 @@
+.custom-header {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6.25%; /* 120px / 1920px = 6.25% */
+    height: 60px;
+    border-bottom: 0px
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #86c5b7; /* BOM SISTER color */
+    letter-spacing: 2px;
+    border-bottom: 0px;
+  }
+  
+  .nav-menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background: white;
+    font-size: 16px;
+    border-bottom: none;
+  }
+  
+  .nav-menu .ant-menu-item {
+    margin: 0 12px;
+  }
+  
+  .icons-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .cart-icon-wrapper {
+    position: relative;
+  }
+  
+  .cart-badge {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    background: #002f6c;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
