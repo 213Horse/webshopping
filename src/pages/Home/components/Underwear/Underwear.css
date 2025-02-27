@@ -1,0 +1,19 @@
+.underwear-title{
+    line-height: 30px;
+}
+.underwear-title:hover p{
+    color: #2F80ED;
+}
+
+.underwear-container {
+    width: 100%;
+    padding-top: 80px;
+  }
+
+  .product-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(280px, 1fr));
+    gap: 25px; 
+    justify-content: center;
+  }

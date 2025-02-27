@@ -28,6 +28,13 @@
   .nav-menu .ant-menu-item {
     margin: 0 12px;
   }
+
+  .nav-item {
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
   
   .icons-container {
     display: flex;

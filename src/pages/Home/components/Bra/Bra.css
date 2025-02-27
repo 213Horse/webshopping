@@ -1,0 +1,18 @@
+.bra-title{
+    line-height: 30px;
+}
+.bra-title:hover p{
+    color: #2F80ED;
+}
+
+.bra-container {
+    width: 100%;
+  }
+
+  .product-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(280px, 1fr));
+    gap: 25px; 
+    justify-content: center;
+  }
