@@ -4,6 +4,9 @@ import Policies from './components/Policies/Policies';
 import Collab from './components/Collab/Collab';
 import Underwear from './components/Underwear/Underwear';
 import Bra from './components/Bra/Bra';
+import Bralette from './components/Bralette/Bralette';
+import Underclothe from './components/Underclothe/Underclothe';
+import CustomerReview from './components/CustomerReview/CustomerReview';
  const Home = () => {
     return (
         <div className='home'>
@@ -13,7 +16,11 @@ import Bra from './components/Bra/Bra';
             <Collab></Collab>
             <Underwear></Underwear>
             <Bra></Bra>
+            <Bralette></Bralette>
+            <Underclothe></Underclothe>
+            
             </div>
+            <CustomerReview></CustomerReview>
         </div>
     );
  };

@@ -1,11 +1,11 @@
-.bra-title{
+.bralette-title{
     line-height: 30px;
 }
-.bra-title:hover p{
+.bralette-title:hover p{
     color: #2F80ED;
 }
 
-.bra-container {
+.bralette-container {
     width: 100%;
     padding-top: 80px;
   }
